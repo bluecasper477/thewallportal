@@ -1,7 +1,7 @@
 <!DOCTYPE html> 
 <html> 
 	<head> 
-		<title>My Page</title> 
+		<title>The Wall Portal</title> 
 		<meta name="viewport" content="width=device-width, initial-scale=1"> 
 		<link rel="stylesheet" href="css/jquery.mobile-1.3.0.min.css" />
 	</head> 
@@ -10,17 +10,23 @@
 		<div data-role="page" data-theme="b">
 
 			<div data-role="header">
-				<h1>jQuery Mobile App</h1>
+				<h1>The Wall Portal</h1>
 			</div>
 
 			<div data-role="content">	
-				<ul data-role="listview" data-inset="true" data-filter="true">
+				<!--
+				  <ul data-role="listview" data-inset="true" data-filter="true">
 					<li><a href="#">Acura</a></li>
 					<li><a href="#">Audi</a></li>
 					<li><a href="#">BMW</a></li>
 					<li><a href="#">Cadillac</a></li>
 					<li><a href="#">Ferrari</a></li>
 				</ul>
+				-->
+				<input type="hidden" id="brand" name="brand" value="jdugan" />
+				Username: <input type="text" id="user" name="user" />
+				Password: <input type="password" id="pass" name="pass" />
+				<input type="submit" id="submit" value="Login" />
 			</div>
 
 		</div>
